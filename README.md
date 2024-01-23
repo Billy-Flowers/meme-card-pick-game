@@ -21,3 +21,4 @@ Quite frankly, I was too tired to change much of the website code but I changed 
 - added a fun audio whenver you click a card
 - a new meme card
 - improved the js code
+- i am not good at web dev
