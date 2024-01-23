@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #282c34; 
+    color: #ffffff; 
+    text-align: center;
+
+    padding: 2vh;
+}
+
+.container {
+    width: auto;
+    margin: 40px auto;
+    padding: 5px;
+    background-color: #3c404d; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px; 
+}
+
+h1 {
+    font-size: 24px; 
+    color: white; 
+}
+
+.instructions {
+    font-size: 16px; 
+    margin-bottom: 20px;
+    color: #adbac7;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.card {
+    width: 32vh;
+    height: 26vh;
+    background-color: #565c6f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d; 
+    border-radius: 15px; 
+    perspective: 1000px;
+}
+
+.card.flipped {
+    transform: rotateY(180deg); 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    backface-visibility: hidden; 
+}
+
+#start-game {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#start-game:hover {
+    background-color: #43a047;
+    transform: scale(1.05);
+}
