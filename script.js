@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'card3', img: 'images/fine.png' },
         { name: 'card4', img: 'images/rollsafe.png' },
         { name: 'card5', img: 'images/success.png' },
-        { name: 'card6', img: 'images/bombaclat.png' },
+        { name: 'card6', img: 'images/1000 stare.png' },
+        { name: 'card7', img: 'images/chill guy.png' },
+        { name: 'card8', img: 'images/lebron sunshine.png' },
+        { name: 'card9', img: 'images/no chic fil a sauce.png' },
 
         // ...add more pairs as needed
     ];
@@ -45,6 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const flipSound = document.getElementById('flipSound');
             flipSound.currentTime = 0;
+            flipSound.load();
             flipSound.play();
             this.setAttribute('src', cardArray[cardId].img);
             
