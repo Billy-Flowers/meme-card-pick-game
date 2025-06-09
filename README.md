@@ -8,8 +8,11 @@ Code for the game is hosted on GitHub.  We create an S3 bucket for static websit
 ## The Game
 A simple memory matching game.  The user picks two cards at a time (images of memes) to try and match them.  If there's a match, the cards disappear from the board.  If there's no match, the cards are flipped back to their blank side so the user can try again.
 
+![Image](https://github.com/user-attachments/assets/9c0eaa1b-e98b-4a6f-a3d2-b3ea5ef14ec2)
+
 The game is made using HTML, CSS and JavaScript.
 
+![Image](https://github.com/user-attachments/assets/3612449b-9af1-4f0b-8be7-75b02c344db4)
 
 ## The Deployment Environment
 The code will be deployed and hosted in an S3 bucket.
