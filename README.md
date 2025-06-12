@@ -20,7 +20,7 @@ The game is made using HTML, CSS and JavaScript.
 
 ![Image](https://github.com/user-attachments/assets/3612449b-9af1-4f0b-8be7-75b02c344db4)
 
-## My Changes
+## New Updates
 - added an audio for whenever a card is selected
 - new meme cards
 - improved JavaScript code in readability and functionality
